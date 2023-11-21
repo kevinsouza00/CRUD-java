@@ -64,7 +64,6 @@ public class PessoaController {
             }
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Não localizado !");
-
     }
 
     @DeleteMapping("/{id}")
